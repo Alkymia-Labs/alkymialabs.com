@@ -1,0 +1,48 @@
+/**********************************
+  Table of Contents
+
+  1. General Styles
+  2. Content Styles
+  **********************************/
+
+  /******* 1. General Styles *******/
+
+  body {
+    background-color: #111;
+  }
+
+  h1 {
+    font-family: 'Josefin Sans', Helvetica Neue, Helvetica, sans-serif;
+    font-size: 6.3em;
+    text-align: left;
+    font-weight: 300;
+    letter-spacing: 0.54em;
+    color: #FCFCFC;
+  }
+
+  h1 span {
+    color: #f6183c;
+    letter-spacing: 0.45em;
+    line-height: 1.3;
+    font-weight: 700;
+  }
+
+  h1.separator {
+    margin-left: -0.15em;
+  }
+
+  /*******  Content Styles *******/
+
+  /*******  Mobile *******/
+
+  @media only screen and (max-width: 900px) {
+
+    h1 {
+      font-size: 2.5em;
+    }
+
+    .container {
+      margin: 0 20px;
+    }
+
+  }

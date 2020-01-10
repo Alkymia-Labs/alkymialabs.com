@@ -7,8 +7,10 @@
 
   /******* 1. General Styles *******/
 
-  body {
+  html, body {
     background-color: #111;
+    overflow-y: scroll;
+    overflow-x: hidden;
   }
 
   h1 {
@@ -38,7 +40,7 @@
   @media only screen and (max-width: 900px) {
 
     h1 {
-      font-size: 2.5em;
+      font-size: 2.2em;
     }
 
     .container {
